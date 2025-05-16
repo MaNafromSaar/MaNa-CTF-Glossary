@@ -8,7 +8,8 @@
       "tags": [
         "bash",
         "linux",
-        "execution"
+        "execution",
+        "builtin"
       ],
       "resources": [
         {
@@ -24,7 +25,8 @@
       "tags": [
         "assembly",
         "compilation",
-        "linux"
+        "linux",
+        "command"
       ],
       "resources": [
         {
@@ -40,7 +42,8 @@
       "tags": [
         "encoding",
         "data-transfer",
-        "obfuscation"
+        "obfuscation",
+        "command"
       ],
       "resources": [
         {
@@ -56,7 +59,8 @@
       "tags": [
         "linux",
         "file-system",
-        "execution"
+        "execution",
+        "command"
       ],
       "resources": [
         {
@@ -434,6 +438,322 @@
         }
       ],
       "letter": "H"
+    },
+    {
+      "term": "ROT Cipher",
+      "description": "A simple letter substitution cipher that replaces a letter with the Nth letter after it in the alphabet. ROT13 replaces a letter with the 13th letter after it.",
+      "tags": [
+        "cryptography",
+        "cipher",
+        "substitution",
+        "encoding",
+        "command"
+      ],
+      "resources": [
+        {
+          "title": "dcode.fr - ROT Cipher",
+          "url": "https://www.dcode.fr/rot-cipher"
+        },
+        {
+          "title": "ROT13 using tr command",
+          "url": "https://www.google.com/search?q=rot13+tr+command"
+        }
+      ],
+      "letter": "R"
+    },
+    {
+      "term": "Caesar Cipher",
+      "description": "One of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet.",
+      "tags": [
+        "cryptography",
+        "cipher",
+        "substitution",
+        "classical-cryptography"
+      ],
+      "resources": [
+        {
+          "title": "dcode.fr - Caesar Cipher",
+          "url": "https://www.dcode.fr/caesar-cipher"
+        }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "tr",
+      "description": "A command-line utility for translating or deleting characters. Often used for simple character substitutions, including ROT13.",
+      "tags": [
+        "linux",
+        "command",
+        "builtin",
+        "text-manipulation",
+        "encoding"
+      ],
+      "resources": [
+        {
+          "title": "tr man page",
+          "url": "https://man7.org/linux/man-pages/man1/tr.1.html"
+        },
+        {
+          "title": "ROT13 using tr command",
+          "url": "https://www.google.com/search?q=rot13+tr+command"
+        }
+      ],
+      "letter": "T"
+    },
+    {
+      "term": "Vigenere Cipher",
+      "description": "A method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword.",
+      "tags": [
+        "cryptography",
+        "cipher",
+        "polyalphabetic",
+        "classical-cryptography"
+      ],
+      "resources": [
+        {
+          "title": "dcode.fr - Vigenere Cipher",
+          "url": "https://www.dcode.fr/vigenere-cipher"
+        },
+        {
+          "title": "Wikipedia - Vigenere Cipher",
+          "url": "https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher"
+        }
+      ],
+      "letter": "V"
+    },
+    {
+      "term": "grep",
+      "description": "A command-line utility for searching plain-text data sets for lines that match a regular expression.",
+      "tags": [
+        "linux",
+        "command",
+        "text-processing",
+        "regex",
+        "builtin"
+      ],
+      "resources": [
+        {
+          "title": "grep man page",
+          "url": "https://man7.org/linux/man-pages/man1/grep.1.html"
+        },
+        {
+          "title": "DigitalOcean - Grep Tutorial",
+          "url": "https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "awk",
+      "description": "A versatile programming language designed for text processing and typically used as a data extraction and reporting tool.",
+      "tags": [
+        "linux",
+        "command",
+        "text-processing",
+        "scripting"
+      ],
+      "resources": [
+        {
+          "title": "awk man page",
+          "url": "https://man7.org/linux/man-pages/man1/awk.1.html"
+        },
+        {
+          "title": "GNU Awk User's Guide",
+          "url": "https://www.gnu.org/software/gawk/manual/gawk.html"
+        }
+      ],
+      "letter": "A"
+    },
+    {
+      "term": "sed",
+      "description": "A stream editor for performing basic text transformations on an input stream (a file or input from a pipeline).",
+      "tags": [
+        "linux",
+        "command",
+        "text-processing",
+        "scripting",
+        "builtin"
+      ],
+      "resources": [
+        {
+          "title": "sed man page",
+          "url": "https://man7.org/linux/man-pages/man1/sed.1.html"
+        },
+        {
+          "title": "GNU sed manual",
+          "url": "https://www.gnu.org/software/sed/manual/sed.html"
+        }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "curl",
+      "description": "A command-line tool for transferring data with URLs. It supports various protocols including HTTP, HTTPS, FTP, etc.",
+      "tags": [
+        "networking",
+        "command",
+        "web",
+        "data-transfer"
+      ],
+      "resources": [
+        {
+          "title": "curl documentation",
+          "url": "https://curl.se/docs/"
+        },
+        {
+          "title": "Everything curl - Book",
+          "url": "https://everything.curl.dev/"
+        }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "nmap",
+      "description": "A free and open-source network scanner used to discover hosts and services on a computer network by sending packets and analyzing the responses.",
+      "tags": [
+        "networking",
+        "security",
+        "scanning",
+        "command"
+      ],
+      "resources": [
+        {
+          "title": "Nmap Official Site",
+          "url": "https://nmap.org/"
+        },
+        {
+          "title": "Nmap Network Scanning (Book)",
+          "url": "https://nmap.org/book/"
+        }
+      ],
+      "letter": "N"
+    },
+    {
+      "term": "POST Method",
+      "description": "The HTTP POST method sends data to the server. The type of the body of the request is indicated by the Content-Type header. Often used for submitting forms or uploading files.",
+      "tags": [
+        "http",
+        "web",
+        "networking",
+        "request-method"
+      ],
+      "resources": [
+        {
+          "title": "MDN - POST",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST"
+        },
+        {
+          "title": "Burp Suite",
+          "url": "https://portswigger.net/burp"
+        }
+      ],
+      "letter": "P"
+    },
+    {
+      "term": "GET Method",
+      "description": "The HTTP GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect.",
+      "tags": [
+        "http",
+        "web",
+        "networking",
+        "request-method"
+      ],
+      "resources": [
+        {
+          "title": "MDN - GET",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET"
+        },
+        {
+          "title": "Burp Suite",
+          "url": "https://portswigger.net/burp"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "Burp Suite",
+      "description": "An integrated platform for performing security testing of web applications. Its various tools work seamlessly together to support the entire testing process, from initial mapping and analysis of an application's attack surface, through to finding and exploiting security vulnerabilities.",
+      "tags": [
+        "web-security",
+        "tool",
+        "proxy",
+        "vulnerability-scanning",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "PortSwigger - Burp Suite",
+          "url": "https://portswigger.net/burp"
+        },
+        {
+          "title": "Burp Suite Documentation",
+          "url": "https://portswigger.net/burp/documentation"
+        }
+      ],
+      "letter": "B"
+    },
+    {
+      "term": "Obfuscation",
+      "description": "The practice of making something difficult to understand. In computing, code obfuscation is often used to conceal its purpose (e.g., malware) or to deter reverse engineering.",
+      "tags": [
+        "security",
+        "reverse-engineering",
+        "malware",
+        "anti-analysis"
+      ],
+      "resources": [
+        {
+          "title": "Wikipedia - Obfuscation",
+          "url": "https://en.wikipedia.org/wiki/Obfuscation_(software)"
+        },
+        {
+          "title": "OWASP - Obfuscation",
+          "url": "https://owasp.org/www-community/Obfuscation"
+        }
+      ],
+      "letter": "O"
+    },
+    {
+      "term": "Jailbreak / Sandbox Escape",
+      "description": "The process of bypassing restrictions or limitations imposed by a sandboxed environment or a restricted shell (jail) to gain unauthorized access or execute arbitrary commands.",
+      "tags": [
+        "exploitation",
+        "security",
+        "sandbox",
+        "privilege-escalation"
+      ],
+      "resources": [
+        {
+          "title": "OWASP - Sandbox Escape",
+          "url": "https://owasp.org/www-community/attacks/Sandbox_Escape"
+        },
+        {
+          "title": "HackTricks - Bypass Sandboxes",
+          "url": "https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions"
+        }
+      ],
+      "letter": "J"
+    },
+    {
+      "term": "JSFuck",
+      "description": "An esoteric JavaScript programming style where code is written using only six characters: [, ], (, ), !, and +. It can be used to create obfuscated JavaScript code that is still executable.",
+      "tags": [
+        "javascript",
+        "obfuscation",
+        "esoteric-language",
+        "web-security"
+      ],
+      "resources": [
+        {
+          "title": "JSFuck - Official Site (Encoder)",
+          "url": "http://www.jsfuck.com/"
+        },
+        {
+          "title": "Wikipedia - JSFuck",
+          "url": "https://en.wikipedia.org/wiki/JSFuck"
+        }
+      ],
+      "letter": "J"
     }
   ]
 }
