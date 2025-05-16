@@ -1,0 +1,439 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-05-16",
+  "entries": [
+    {
+      "term": ". (Point)",
+      "description": "Executes the content of a file (source)",
+      "tags": [
+        "bash",
+        "linux",
+        "execution"
+      ],
+      "resources": [
+        {
+          "title": "Bash Documentation",
+          "url": "https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html#index-_002e"
+        }
+      ],
+      "letter": "P"
+    },
+    {
+      "term": "as",
+      "description": "Attempts to interpret a file as assembly instructions",
+      "tags": [
+        "assembly",
+        "compilation",
+        "linux"
+      ],
+      "resources": [
+        {
+          "title": "GNU as Documentation",
+          "url": "https://sourceware.org/binutils/docs/as/"
+        }
+      ],
+      "letter": "A"
+    },
+    {
+      "term": "base64",
+      "description": "Useful for encoding with limited character sets",
+      "tags": [
+        "encoding",
+        "data-transfer",
+        "obfuscation"
+      ],
+      "resources": [
+        {
+          "title": "Base64 Encoding",
+          "url": "https://en.wikipedia.org/wiki/Base64"
+        }
+      ],
+      "letter": "B"
+    },
+    {
+      "term": "ln",
+      "description": "Creates a symbolic link to a file; makes it executable and runs it",
+      "tags": [
+        "linux",
+        "file-system",
+        "execution"
+      ],
+      "resources": [
+        {
+          "title": "ln Command Guide",
+          "url": "https://www.geeksforgeeks.org/ln-command-in-linux/"
+        }
+      ],
+      "letter": "L"
+    },
+    {
+      "term": "Command Composition",
+      "description": "Bypass filters by composing commands from individual characters",
+      "tags": [
+        "bash",
+        "obfuscation",
+        "command-injection"
+      ],
+      "resources": [
+        {
+          "title": "Bash Command Injection",
+          "url": "https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions"
+        }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "__subclasses__",
+      "description": "Allows access to all classes derived from 'object'",
+      "tags": [
+        "python",
+        "exploitation",
+        "sandbox-escape"
+      ],
+      "resources": [
+        {
+          "title": "Python Jailbreak Techniques",
+          "url": "https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes"
+        }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "get_data",
+      "description": "Important method to access data without os or globals",
+      "tags": [
+        "python",
+        "data-access",
+        "sandbox-escape"
+      ],
+      "resources": [
+        {
+          "title": "Python Code Injection",
+          "url": "https://medium.com/swlh/hacking-python-applications-5d4cd541b3f1"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "get_flashed_messages",
+      "description": "Can access globals",
+      "tags": [
+        "python",
+        "flask",
+        "web-exploitation"
+      ],
+      "resources": [
+        {
+          "title": "Flask Documentation",
+          "url": "https://flask.palletsprojects.com/en/2.0.x/api/#flask.get_flashed_messages"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "405",
+      "description": "Reaches popen without going through os via subclasses",
+      "tags": [
+        "python",
+        "exploitation",
+        "popen",
+        "sandbox-escape"
+      ],
+      "resources": [
+        {
+          "title": "Python Sandbox Bypass",
+          "url": "https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes"
+        }
+      ],
+      "letter": "4"
+    },
+    {
+      "term": "__mro__",
+      "description": "Method Resolution Order - important in web contexts",
+      "tags": [
+        "python",
+        "oop",
+        "inheritance"
+      ],
+      "resources": [
+        {
+          "title": "Python MRO Explanation",
+          "url": "https://www.geeksforgeeks.org/method-resolution-order-in-python-inheritance/"
+        }
+      ],
+      "letter": "M"
+    },
+    {
+      "term": "Self.help",
+      "description": "Command to get help in restricted environments",
+      "tags": [
+        "python",
+        "jail",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "Search: Python Jail Self.help",
+          "url": "https://google.com/search?q=python+jail+self.help"
+        }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "Nested Jails",
+      "description": "Call jail within jail to get more space; define abbreviations with variables",
+      "tags": [
+        "python",
+        "jail",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "Search: Python Nested Jail",
+          "url": "https://google.com/search?q=python+jail+nested+jail"
+        }
+      ],
+      "letter": "N"
+    },
+    {
+      "term": "Type Casting",
+      "description": "Cast to wrong type to trigger error output",
+      "tags": [
+        "python",
+        "error-handling",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "Python Exceptions",
+          "url": "https://docs.python.org/3/tutorial/errors.html"
+        }
+      ],
+      "letter": "T"
+    },
+    {
+      "term": "Globals Update",
+      "description": "Create/update global variables for exploitation",
+      "tags": [
+        "python",
+        "variables",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "Python globals()",
+          "url": "https://docs.python.org/3/library/functions.html#globals"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "Command Composition (JS)",
+      "description": "Express commands in hex/int formats",
+      "tags": [
+        "javascript",
+        "obfuscation",
+        "encoding"
+      ],
+      "resources": [
+        {
+          "title": "JS Obfuscation",
+          "url": "https://obfuscator.io/"
+        }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "JSON.stringify",
+      "description": "Converts JavaScript values to JSON strings",
+      "tags": [
+        "javascript",
+        "serialization",
+        "data-manipulation"
+      ],
+      "resources": [
+        {
+          "title": "MDN JSON.stringify",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
+        }
+      ],
+      "letter": "J"
+    },
+    {
+      "term": "Prototype Pollution",
+      "description": "Modification of Object.prototype",
+      "tags": [
+        "javascript",
+        "object-model",
+        "web-security"
+      ],
+      "resources": [
+        {
+          "title": "Prototype Pollution Guide",
+          "url": "https://github.com/BlackFan/client-side-prototype-pollution"
+        }
+      ],
+      "letter": "P"
+    },
+    {
+      "term": "Godbolt",
+      "description": "Online compiler explorer",
+      "tags": [
+        "compiler",
+        "debugging",
+        "code-analysis"
+      ],
+      "resources": [
+        {
+          "title": "Godbolt",
+          "url": "https://godbolt.org/"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "CppInsights",
+      "description": "C++ code insights tool",
+      "tags": [
+        "cpp",
+        "debugging",
+        "code-analysis"
+      ],
+      "resources": [
+        {
+          "title": "CppInsights",
+          "url": "https://cppinsights.io/"
+        }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "GOT",
+      "description": "Global Offset Table - table for addresses of external functions",
+      "tags": [
+        "binary",
+        "elf",
+        "linking"
+      ],
+      "resources": [
+        {
+          "title": "GOT/PLT Explanation",
+          "url": "https://systemoverlord.com/2017/03/19/got-and-plt-for-pwning.html"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "PIE",
+      "description": "Position Independent Executable - can run at any address",
+      "tags": [
+        "binary",
+        "aslr",
+        "security"
+      ],
+      "resources": [
+        {
+          "title": "PIE Introduction",
+          "url": "https://ir0nstone.gitbook.io/notes/types/stack/aslr/pie"
+        }
+      ],
+      "letter": "P"
+    },
+    {
+      "term": "ELF",
+      "description": "Executable and Linkable Format - standard file format for Linux executables",
+      "tags": [
+        "binary",
+        "linux",
+        "format"
+      ],
+      "resources": [
+        {
+          "title": "ELF Format",
+          "url": "https://linuxhint.com/understanding_elf_file_format/"
+        }
+      ],
+      "letter": "E"
+    },
+    {
+      "term": "printf Exploitation",
+      "description": "Format string attacks using printf",
+      "tags": [
+        "format-string",
+        "vulnerability",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "LiveOverflow",
+          "url": "https://www.youtube.com/watch?v=0WvrSfcdq1I"
+        }
+      ],
+      "letter": "P"
+    },
+    {
+      "term": "Stack Architecture",
+      "description": "Stack manipulation fundamentals",
+      "tags": [
+        "memory-corruption",
+        "buffer-overflow",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "Stack Overflow Explanation",
+          "url": "https://ir0nstone.gitbook.io/notes/types/stack/basic-buffer-overflow"
+        }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "Format String",
+      "description": "Format string vulnerability techniques",
+      "tags": [
+        "format-string",
+        "vulnerability",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "Format String Vulnerability",
+          "url": "https://www.exploit-db.com/docs/english/28476-linux-format-string-exploitation.pdf"
+        }
+      ],
+      "letter": "F"
+    },
+    {
+      "term": "%n Format",
+      "description": "Writing to memory using printf",
+      "tags": [
+        "format-string",
+        "memory-writing",
+        "exploitation"
+      ],
+      "resources": [
+        {
+          "title": "Format String Attacks",
+          "url": "https://owasp.org/www-community/attacks/Format_string_attack"
+        }
+      ],
+      "letter": "%"
+    },
+    {
+      "term": "Heap Architecture",
+      "description": "Heap memory basics and exploitation",
+      "tags": [
+        "memory-corruption",
+        "exploitation",
+        "binary"
+      ],
+      "resources": [
+        {
+          "title": "Heap Exploitation",
+          "url": "https://heap-exploitation.dhavalkapil.com/"
+        }
+      ],
+      "letter": "H"
+    }
+  ]
+}
