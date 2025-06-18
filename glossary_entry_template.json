@@ -1,0 +1,10 @@
+{
+  "term": "<Term>",
+  "description": "<Short description of the term>",
+  "tags": ["tag1", "tag2"],
+  "flags": ["flag1", "flag2"],
+  "resources": [
+    {"title": "Resource Title", "url": "https://example.com"}
+  ],
+  "letter": "T"
+}

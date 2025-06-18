@@ -88,35 +88,26 @@ You can also use direct commands for quick operations:
 ./glossary.py help
 ```
 
-### Manual JSON Editing
+### Manual Editing (Recommended)
 
-If you prefer manual editing, you can directly modify the `glossary_data.json` file. Each entry should follow this format:
+To add entries directly, open `glossary_data.json` in your editor. For consistency and to avoid errors, use the provided template in `glossary_entry_template.json`:
 
-```json
-{
-  "term": "Your Term",
-  "description": "Description of the term",
-  "tags": ["tag1", "tag2", "tag3"],
-  "resources": [
-    {
-      "title": "Resource Title",
-      "url": "https://resource-url.com"
-    },
-    {
-      "title": "Another Resource",
-      "url": "https://another-url.com"
-    },
-    {
-      "title": "Tool: Related Tool",
-      "url": "https://tool-url.com",
-      "type": "tool"
-    }
-  ],
-  "letter": "Y"  // First letter for alphabetical sorting
-}
+- Copy the contents of `glossary_entry_template.json` as a starting point for new entries.
+- Place new entries in alphabetical order by the `term` field.
+- For tools, include the `flags` array and relevant online resources.
+- For terminology, use clear tags and at least one resource if possible.
+- The `letter` field should be the first letter of the term (A-Z, 0-9, or special).
+
+[View the entry template here](glossary_entry_template.json)
+
+### Using the Python Scripts
+
+You can also use the provided Python scripts for interactive entry management:
+
+```sh
+python3 add_entry.py
+python3 glossary_manager.py
 ```
-
-Note: To add a tool link, prefix the title with "Tool: " and add a "type": "tool" property.
 
 ## 🤝 Contributing
 
